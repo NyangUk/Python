@@ -6,9 +6,13 @@
 #   ...
 
 a =10
-# while a<14 :
-#     a+=1
-#     print(a) 
+#예시
+
+while a<14 :
+    a+=1
+    print(a) 
+
+# 보조제어문
 
 while True :
     a-=1
