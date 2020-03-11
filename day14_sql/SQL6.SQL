@@ -1,0 +1,7 @@
+SELECT
+ANIMAL_ID,NAME,DATETIME
+FROM
+ANIMAL_INS
+ORDER BY 
+NAME ASC , DATETIME DESC
+--이름 순으로 정렬함과 동시에 날짜별 내림차순으로 정렬하기 

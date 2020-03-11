@@ -1,0 +1,6 @@
+SELECT NAME
+FROM 
+ANIMAL_INS
+ORDER BY
+DATETIME LIMIT 1
+-- 정렬후 limit 를 이용하여 상위 1개만 출력하기 
