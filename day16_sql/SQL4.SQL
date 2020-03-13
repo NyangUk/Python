@@ -1,0 +1,3 @@
+SELECT a.ANIMAL_ID, a.ANIMAL_TYPE, a.NAME FROM ANIMAL_INS as a LEFT JOIN ANIMAL_OUTS as b 
+ON a.ANIMAL_ID = b.ANIMAL_ID 
+WHERE a.SEX_UPON_INTAKE IN('Intact Male', 'Intact Female') AND b.SEX_UPON_OUTCOME IN('Neutered Male', 'Spayed Female')
